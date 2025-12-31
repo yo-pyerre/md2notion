@@ -1,6 +1,6 @@
-[package]
-name = "md2notion"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
+[workspace]
+members = [
+    "md2notion-core",
+    "md2notion-sync",
+]
+resolver = "2"
